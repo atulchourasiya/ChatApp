@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "atul chourasiya",
-  "license": "ISC"
-  
-  
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.6.1"
+  }
 }

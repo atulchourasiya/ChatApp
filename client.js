@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8000');
+const socket = io('https://worried-life-jacket-mite.cyclic.app');
 
 const formInput = document.getElementById('formInput');
 const formName = document.getElementById('formName');

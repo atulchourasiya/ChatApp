@@ -8,7 +8,7 @@ const server = http.createServer(function(req,res){
 
 const io = require('socket.io')(server, {
 	cors: {
-		origin: 'https://atulchourasiya.github.io/'
+		origin: '*'
 	}
 });
 

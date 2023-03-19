@@ -7,7 +7,7 @@ const server = http.createServer(function(req,res){
 }).listen(PORT);
 const io = require('socket.io')(server, {
 	cors: {
-		origin: '*:*'
+		origin: '*'
 	}
 });
 

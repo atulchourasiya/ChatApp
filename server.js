@@ -1,4 +1,12 @@
-const io = require('socket.io')("https://livechat-9l9u.onrender.com", {
+const http = require('http');
+const PORT = process.env.PORT || 8000;
+const server = http.createServer(function(req,res){
+ res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.write('Hello World!');
+  res.end();
+}).listen(PORT);
+
+const io = require('socket.io')(server, {
 	cors: {
 		origin: 'https://atulchourasiya.github.io/'
 	}

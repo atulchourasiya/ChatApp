@@ -1,4 +1,4 @@
-const socket = io('https://livechat-9l9u.onrender.com');
+const socket = io('https://worried-life-jacket-mite.cyclic.app/');
 
 const formInput = document.getElementById('formInput');
 const formName = document.getElementById('formName');

@@ -5,12 +5,8 @@ const server = http.createServer(function(req,res){
   res.write('Server is up and running!');
   res.end();
 }).listen(PORT);
-
-const io = require('socket.io')(server, {
-	cors: {
-		origin: '*'
-	}
-});
+const io = require('socket.io')(server);
+io.set('origins', '*:*');
 
 const users = {};
 

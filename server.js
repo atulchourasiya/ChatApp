@@ -1,4 +1,4 @@
-const io = require('socket.io')("https://livechat-9l9u.onrender.com", {
+const io = require('socket.io')(https://livechat-9l9u.onrender.com, {
 	cors: {
 		origin: 'https://atulchourasiya.github.io/'
 	}

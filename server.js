@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const http = require('http');
 const PORT = process.env.PORT || 8000;
 const server = http.createServer(function(req,res){
@@ -8,9 +7,6 @@ const server = http.createServer(function(req,res){
 }).listen(PORT);
 
 const io = require('socket.io')(server, {
-=======
-const io = require('socket.io')(https://livechat-9l9u.onrender.com, {
->>>>>>> 2a3a162fd33d3557cdb839c93fd5bbb43a7583dd
 	cors: {
 		origin: 'https://atulchourasiya.github.io/'
 	}

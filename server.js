@@ -1,4 +1,4 @@
-const io = require('socket.io')(https://worried-life-jacket-mite.cyclic.app, {
+const io = require('socket.io')(https://livechat-9l9u.onrender.com, {
 	cors: {
 		origin: 'https://atulchourasiya.github.io/'
 	}

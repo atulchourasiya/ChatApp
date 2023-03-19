@@ -1,5 +1,4 @@
-const PORT = process.env.PORT || 8000;
-const io = require('socket.io')(PORT, {
+const io = require('socket.io')(https://worried-life-jacket-mite.cyclic.app, {
 	cors: {
 		origin: 'https://atulchourasiya.github.io/'
 	}

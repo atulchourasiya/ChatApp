@@ -5,7 +5,11 @@ const server = http.createServer(function(req,res){
   res.write('Server is up and running!');
   res.end();
 }).listen(PORT);
-const io = require('socket.io')(server);
+const io = require('socket.io')(server, {
+	cors: {
+		origin: '*'
+	}
+});
 io.set('origins', '*:*');
 
 const users = {};
